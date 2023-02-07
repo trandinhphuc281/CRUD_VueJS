@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "price": 100,
+      "description": "Product A"
+    },
+    {
+      "name": "Product B",
+      "price": 200,
+      "description": "Product B",
+      "id": 2
+    },
+    {
+      "name": "Product C",
+      "price": "300",
+      "description": "Product C",
+      "id": 3
+    },
+    {
+      "name": "Product D",
+      "price": "400",
+      "description": "Product D",
+      "id": 4
+    },
+    {
+      "name": "Product Bb",
+      "price": "2002",
+      "description": "Product Bbc",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
