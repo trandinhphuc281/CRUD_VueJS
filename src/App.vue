@@ -4,13 +4,13 @@
       <div class="col-xs-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 text-left">
         <h3 class="text-center">Vue Resource</h3>
         <div class="form-group">
-          <input class="form-control" type="text" v-model="product.name">
+          <input class="form-control" type="text" v-model="product.name" placeholder="  product.name">
         </div>
         <div class="form-group">
-          <input class="form-control" type="text" v-model="product.price">
+          <input class="form-control" type="number" min="0" v-model="product.price" placeholder="  product.price">
         </div>
         <div class="form-group">
-          <input class="form-control" type="text" v-model="product.description">
+          <input class="form-control" type="text" v-model="product.description" placeholder="  product.description">
         </div>
           <button class="btn btn-block btn-success" @click="submitProduct">Submit</button>
           <button class="btn btn-block btn-success" @click="updateProduct">Update</button>
